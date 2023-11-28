@@ -1,0 +1,41 @@
+header {
+    background-color: red;
+
+    nav {
+        text-align: center;
+
+        ul {
+            list-style: none;
+
+            li {
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                }
+            }
+        }
+    }
+}
+
+main{
+    section{
+        background-color: beige;   
+        h1{
+            color: red;
+            text-align: center;
+        }
+        p{
+            color: blue;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    }
+}
+
+
+footer{
+    background-color: green;
+    h2{
+        color: blue;
+    }
+}
