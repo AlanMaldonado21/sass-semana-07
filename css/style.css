@@ -1,30 +1,120 @@
-header {
-  background-color: red;
-}
-header nav {
-  background-color: yellow;
-}
-header nav ul {
-  list-style-type: none;
-}
-header nav ul li a {
-  color: black;
-  text-decoration: none;
-}
-header nav ul li .enlace-verde {
-  color: green;
-}
-header .boton-plataforma {
-  background-color: peru;
-}
-header .boton-plataforma #enlace-plataforma {
-  text-decoration: none;
-}
-
+/* 
+Comentario multi-linea
+*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: #1E2023;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid gainsboro;
+}
+header img {
+  width: 10rem;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+header nav ul li a {
+  margin: 15px;
+  color: white;
+  font-family: "Arial";
+  text-decoration: none;
+  transition: 1s;
+}
+header nav ul li a:hover {
+  color: red;
+}
+header nav ul li .enlace-amarillo {
+  color: yellow;
+}
+header .boton-plataforma {
+  display: flex;
+  align-items: center;
+}
+header .boton-plataforma img {
+  width: 1.5rem;
+}
+header .boton-plataforma #enlace-plataforma {
+  color: white;
+  margin: 10px;
+  font-family: "Arial";
+  text-decoration: none;
+}
+
+.promociones {
+  padding: 15px;
+  background-color: #F4FE80;
+}
+.promociones p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: "Arial";
+  font-weight: 900;
+  color: blue;
+}
+
+main .cursos-online h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 25px;
+}
+main .cursos-online h1 span {
+  color: yellow;
+}
+main .cursos-online p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 25px;
+}
+main .cursos-online div {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button, .button-02 {
+  background-color: yellow;
+  border-radius: 5px;
+  padding: 15px;
+  color: black;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 1s;
+}
+.button:hover, .button-02:hover {
+  background-color: #1E2023;
+  border: 1px solid yellow;
+  color: white;
+}
+
+.button-02 {
+  margin: 15px;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: "Arial";
+  font-weight: 900;
+  color: blue;
 }
 
 /*# sourceMappingURL=style.css.map */

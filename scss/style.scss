@@ -1,5 +1,16 @@
-@import 'header';
-@import 'reset';
+// Comentario de una linea
+/* 
+Comentario multi-linea
+*/
+
+@import 'base/reset';
+@import 'layout/header';
+@import 'layout/promociones';
+@import 'layout/cursos';
+// Components
+@import 'components/botones';
+// MIXIN
+@import 'utilities/mixin';
 
  
 

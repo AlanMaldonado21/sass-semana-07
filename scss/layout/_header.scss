@@ -1,0 +1,47 @@
+// Mi primer variable
+$font-family: "Arial";
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid gainsboro;
+    img{
+        width: 10rem;
+    }
+    nav { 
+        ul{
+            display: flex;
+            list-style-type: none;
+            li{
+                a{
+                    margin: 15px;
+                    color: white;
+                    font-family: $font-family;
+                    text-decoration: none;
+                    transition: 1s;
+                    &:hover{
+                        color: red;
+                    }
+                }
+                .enlace-amarillo{
+                    color: yellow;
+                }
+            }
+        }
+    }
+    .boton-plataforma{
+        display: flex;
+        align-items: center;
+        img{
+            width: 1.5rem;
+        }
+        #enlace-plataforma{
+            color: white;
+            margin: 10px;
+            font-family: $font-family;
+            text-decoration: none;
+        }
+    }
+}

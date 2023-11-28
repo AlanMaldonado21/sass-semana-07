@@ -1,0 +1,16 @@
+@mixin fuente-parrafos ($size, $family, $grosor, $color) {
+    font-size: $size;
+    font-family: $family;
+    font-weight: $grosor;
+    color: $color;
+}
+
+@mixin flex ($flex, $justify, $aling-items){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $aling-items;
+}
+
+h2{
+    @include fuente-parrafos(25px, 'Arial', 900, blue);
+}

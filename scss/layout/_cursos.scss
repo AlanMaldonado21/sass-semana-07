@@ -1,0 +1,27 @@
+@import '../utilities/mixin';
+
+main{
+    .cursos-online{
+        h1{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-top: 25px;
+            span{
+                color: yellow;
+            }
+        }
+        p{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            text-align: center;
+            margin-top: 25px;
+        }
+        div{
+            margin-top: 15px;
+            @include flex(flex,center, center);
+        }
+    }
+}

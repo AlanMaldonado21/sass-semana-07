@@ -1,0 +1,20 @@
+$color-de-fondo: white;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    // Condicionales
+    @if $color-de-fondo == white{
+        background-color: #1E2023;
+    } @else{
+        background-color: blue;
+    }
+
+}
+
+
+
